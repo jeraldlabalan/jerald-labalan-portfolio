@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  img {
+    max-width: 250px;
+    align-self: center;
+    background-color: var(--project-card-bg);
+    border-radius: 20px;
+  }
+
+  a {
+    width: fit-content;
+    text-decoration: none;
+    color: #222;
+    transition: opacity 1.05s ease-in-out;
+  }
+
+  a:hover {
+    opacity: 0.25;
+  }
+
+  .projectsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .projectsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 30px;
+  }
+}
+
+@media (width >= 800px) {
+  .projectsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 30px;
+  }
+}
