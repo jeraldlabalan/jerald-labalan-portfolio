@@ -19,9 +19,11 @@ function App() {
     <main className='main'>
     <Home />
     <About />
+    <ScrollDown />
     <Skills />
     <Qualification />
     <Contact />
+    <Projects />
     {/*<Projects />*/}
     </main>
     <Footer />
