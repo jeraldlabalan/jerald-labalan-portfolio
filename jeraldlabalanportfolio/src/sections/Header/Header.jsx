@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import {Link} from 'react-scroll'
 import styles from './HeaderStyles.module.css';
 import Logo from '../../assets/header-logo-removebg.png';
 import ScrollUp from '../ScrollUp/ScrollUp';
